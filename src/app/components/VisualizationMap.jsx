@@ -15,8 +15,6 @@ export default function VisualtizationMap() {
   const load3DMap = async () => {
     window.CESIUM_BASE_URL = '/Cesium';
 
-    console.log('test');
-
     // Your access token can be found at: https://ion.cesium.com/tokens.
     // Replace `your_access_token` with your Cesium ion access token.
 
